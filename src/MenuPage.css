@@ -55,6 +55,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 1rem;
+    box-sizing: border-box;
   }
   
   img {
@@ -85,4 +86,50 @@ body {
     color: #666;
   }
   
+  /* Медиа-запросы для адаптации под мобильные устройства */
+  @media (max-width: 768px) {
+    li {
+      width: calc(50% - 1rem); /* 2 элемента в строке на экранах шириной до 768px */
+    }
+  
+    h2 {
+      font-size: 1.8rem;
+    }
+  
+    h3 {
+      font-size: 1.4rem;
+    }
+  
+    p {
+      font-size: 0.9rem;
+    }
+  
+    img {
+      width: 90px;
+      height: 90px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    li {
+      width: calc(100% - 1rem); /* 1 элемент в строке на экранах шириной до 480px */
+    }
+  
+    h2 {
+      font-size: 1.6rem;
+    }
+  
+    h3 {
+      font-size: 1.2rem;
+    }
+  
+    p {
+      font-size: 0.8rem;
+    }
+  
+    img {
+      width: 80px;
+      height: 80px;
+    }
+  }
   
