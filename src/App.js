@@ -1,21 +1,12 @@
 import { useEffect } from 'react';
 import './App.css';
+import MenuPage from './MenuPage'
 const tg = window.Telegram.WebApp;
 
 function App() {
-
-  useEffect(() => {
-    tg.ready();
-  }, [])
-
-  const onClose = () => {
-    tg.close()
-  }
-
   return (
     <div className="App">
-      work
-        <button onClick={onClose}>Закрыть</button>
+      <MenuPage />
     </div>
   );
 }
