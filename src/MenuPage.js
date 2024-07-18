@@ -8,13 +8,13 @@ const categories = [
     items: [
       {
         name: 'Деревянный меч',
-        description: 'Для ебанатов',
+        description: 'Для всех',
         price: 1,
         image: '/images/woodensword.png',
       },
       {
         name: 'Каменный меч',
-        description: 'Тоже для ебанатов посильнее',
+        description: 'Тоже  посильнее',
         price: 3,
         image: '/images/rocksword.png',
       },
@@ -32,7 +32,7 @@ const categories = [
       },
       {
         name: 'Незеритовый меч',
-        description: 'Для качков ебаных',
+        description: 'Для мощных',
         price: 50,
         image: '/images/nethersword.png',
       },
@@ -44,7 +44,7 @@ const categories = [
     items: [
       {
         name: 'Деревянная кирка',
-        description: 'Для ебанатов шахтеров',
+        description: 'Для шахтеров',
         price: 1,
         image: '/images/syrnaya.jpg',
       },
@@ -68,7 +68,7 @@ const categories = [
       },
       {
         name: 'Незеритовая кирка',
-        description: 'нахуй она тебе сдалась?',
+        description: 'зачем',
         price: 30,
         image: '/images/choriso-fresh.jpg',
       },
@@ -86,13 +86,13 @@ const categories = [
       },
       {
         name: 'Арбалет',
-        description: 'Спиздил у разбойника',
+        description: 'у разбойника',
         price: 8,
         image: '/images/pepperoni-fresh.jpg',
       },
       {
         name: 'Снежки',
-        description: 'Бля ты че ебанат?',
+        description: 'ты че?',
         price: 1,
         image: '/images/dvoynoy-cyplionok.jpg',
       },
