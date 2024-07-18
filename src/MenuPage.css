@@ -67,21 +67,21 @@ body {
   }
   
   h2 {
-    font-size: 2rem;
+    font-size: 4vw; /* Адаптивный шрифт */
     margin-bottom: 1rem;
     text-align: center;
     color: #333;
   }
   
   h3 {
-    font-size: 1.5rem;
+    font-size: 3vw; /* Адаптивный шрифт */
     margin: 0.5rem 0;
     text-align: center;
     color: #333;
   }
   
   p {
-    font-size: 1rem;
+    font-size: 2.5vw; /* Адаптивный шрифт */
     text-align: center;
     color: #666;
   }
@@ -93,15 +93,15 @@ body {
     }
   
     h2 {
-      font-size: 1.8rem;
+      font-size: 5vw; /* Адаптивный шрифт */
     }
   
     h3 {
-      font-size: 1.4rem;
+      font-size: 4vw; /* Адаптивный шрифт */
     }
   
     p {
-      font-size: 0.9rem;
+      font-size: 3.5vw; /* Адаптивный шрифт */
     }
   
     img {
@@ -116,15 +116,15 @@ body {
     }
   
     h2 {
-      font-size: 1.6rem;
+      font-size: 6vw; /* Адаптивный шрифт */
     }
   
     h3 {
-      font-size: 1.2rem;
+      font-size: 5vw; /* Адаптивный шрифт */
     }
   
     p {
-      font-size: 0.8rem;
+      font-size: 4.5vw; /* Адаптивный шрифт */
     }
   
     img {
