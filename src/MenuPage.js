@@ -179,12 +179,20 @@ const MenuPage = () => {
                   <div className="cart-buttons">
                     {cart.some(cartItem => cartItem.name === item.name) ? (
                       <>
-                        <button onClick={() => decreaseQuantity(item)}>-</button>
-                        <span>{cart.find(cartItem => cartItem.name === item.name).quantity}</span>
-                        <button onClick={() => increaseQuantity(item)}>+</button>
+                        <div className="button-container">
+                          <button onClick={() => decreaseQuantity(item)}>-</button>
+                        </div>
+                        <div className="button-container">
+                          <span>{cart.find(cartItem => cartItem.name === item.name).quantity}</span>
+                        </div>
+                        <div className="button-container">
+                          <button onClick={() => increaseQuantity(item)}>+</button>
+                        </div>
                       </>
                     ) : (
-                      <button onClick={() => addToCart(item)}>В корзину</button>
+                      <div className="button-container">
+                        <button onClick={() => addToCart(item)}>В корзину</button>
+                      </div>
                     )}
                   </div>
                 </li>
